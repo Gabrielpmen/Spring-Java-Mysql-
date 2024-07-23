@@ -30,9 +30,9 @@ public class Cidade {
 
 
 
-    @OneToMany
-    @JoinColumn(name = "cidade_cliente")
-    private List<Cliente> clientes;
+    // @OneToMany
+    // @JoinColumn(name = "cidade_cliente")
+    // private List<Cliente> clientes;
 
     
     /* @OneToOne

@@ -23,8 +23,8 @@ public class Cliente {
 
     private int idade;
 
-   @ManyToOne
-    private Cidade cidade;
+//    @ManyToOne
+//     private Cidade cidade;
     
 }
 

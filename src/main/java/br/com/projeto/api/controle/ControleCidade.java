@@ -31,7 +31,7 @@ public class ControleCidade {
 
 
     @PostMapping("/cadastrar")
-public Cidade cadastrar(@RequestBody Cidade c){
+public Cidade cadastrarcid(@RequestBody Cidade c){
 return acao2.save(c);
 }
 
