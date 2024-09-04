@@ -1,13 +1,14 @@
 package br.com.projeto.api.repositorio;
 
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
-import br.com.projeto.api.modelo.Cliente;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@Repository
-public interface Repositorio extends CrudRepository<Cliente, Long>{
-    
+@SpringBootApplication
+public class Repositorio {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Repositorio.class, args);
+	}
+
 }
-
-
